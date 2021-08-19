@@ -15,6 +15,6 @@ class MoviesController < ApplicationController
   end
 
   def index
-    @youtube_data = find_videos("ポケモンカード")
+    @youtube_data = find_videos("プログラミング")
   end
 end
