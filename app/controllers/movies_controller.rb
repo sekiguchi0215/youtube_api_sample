@@ -11,7 +11,7 @@ class MoviesController < ApplicationController
       max_results: 10,
       order: :date,
     }
-    youtube.list_searches(:id, :snippet, option)
+    youtube.list_searches(:snippet, option)
   end
 
   def index
